@@ -19,9 +19,9 @@
 {% set unidades = loja.unidades %}
 {% set total = loja.total() %}
 
-{% set icons = ['fas fa-question', 'fas fa-archive', 'fas fa-microchip', 'fas fa-desktop'] %}
+{% set icons = ['fas fa-question', 'fas fa-tshirt', 'far fa-boot', 'fas fa-tshirt'] %}
 <div class="navbar">
-  <a class="active" href="/"><i class="fas fa-euro-sign"></i> Home</a>
+  <a class="active" href="/"><i class="fab fa-foursquare"></i>Home</a>
   {% for nome in menu %}
   <a href="/pr_ini/{{ nome.title }}"><i class="{{ icons.pop() }}"></i> {{ nome.title }}</a>
   {% endfor %}
@@ -41,28 +41,33 @@
     <footer class="site-footer">
       <div class="container">
         <div class="row">
-            <h6>About</h6>
-            <p class="text-justify">Forum Sport <i>é uma loja de roupa desportiva a qual foi eleita como a melhor loja de roupa desportiva em 2018</i>
+            <h6>Sobre a Loja</h6>
+            <p class="text-justify">Forum Sport <i>é uma loja de roupa desportiva a qual foi eleita como a melhor loja de roupa desportiva em 2018. Venha visitarnos e não se arrependerá.</i>
           </div>
           <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
+
+            <h6>Informação</h6>
+            <p class="text-justify"><i>Se estiverem interesados aceitamos pessoal para trabalhar. Entrem em contacto conosco através das nossas redes sociais ou telefone.
+              <p class="text-justify"><i><i class="fas fa-phone-volume"></i></i> Contacte connosco ao 965123546
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
-
-            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+            <p class="text-justify"><li><a href=https://www.instagram.com/?hl=pt>Instagram</a></li>
+            <p class="text-justify"><li><a href=https://pt-pt.facebook.com/>Facebook</a></li>
+            <p class="text-justify"><li><a href=https://twitter.com/login>Twitter</a></li>
+            <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
          <a href="#">Forum Sport</a>.
             </p>
           </div>
             <ul class="social-icons">
               <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></i></a></li>
               <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></i></a></li>
+              <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></i></a></li>
             </ul>
       </div>
 </footer>
-
 
 <br><center>
 <h3>&copy; Copyright 2019 Bruno Gallego</h3>
